@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { TecnologiasComponent } from './componentes/tecnologias/tecnologias.component';
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [RouterOutlet, TecnologiasComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

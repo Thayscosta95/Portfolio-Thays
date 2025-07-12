@@ -1,0 +1,21 @@
+.tecnologia {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;     /* alinha verticalmente se necessário */
+                /* espaço entre as imagens */
+  margin-top: 30px;  
+ 
+   
+   
+}
+
+.tecnologia img {
+  width: 60px;
+  height: auto;
+  transition: transform 0.2s;
+  
+}
+
+.tecnologia img:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,30 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .home-container img {
+    width: 360px;
+    height: 360px;
+    border-radius: 170px;
+    margin-right: 60px;
+    margin-top: 90px;
+  }
+  
+  .titulo-home h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5rem;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .titulo-home a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #FF69B4; 
+    font-weight: bold;
+  }
+  
+  

@@ -20,7 +20,7 @@ export const routes: Routes = [
     component: ProjetosComponent
   },
   {
-    path: 'sobre-mim',
+    path: 'sobre',
     component: SobreMimComponent
   },
   {

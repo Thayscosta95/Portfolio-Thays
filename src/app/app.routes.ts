@@ -6,6 +6,8 @@ import { SobreMimComponent } from './componentes/sobre-mim/sobre-mim.component';
 import { ContatoComponent } from './componentes/contato/contato.component';
 import { ConversorMoedasComponent } from './componentes/projetos/ver-projetos/conversor-moedas/conversor-moedas.component';
 import { JokenpoComponent } from './componentes/projetos/ver-projetos/jokenpo/jokenpo.component';
+import { MarioServicosComponent } from './componentes/projetos/ver-projetos/mario-servicos/mario-servicos.component';
+import { MemotecaComponent } from './componentes/projetos/ver-projetos/memoteca/memoteca.component';
 
 export const routes: Routes = [
   {
@@ -36,5 +38,15 @@ export const routes: Routes = [
   {
     path: 'ver-projetos/jokenpo',
     component: JokenpoComponent
-  }
+  },
+  {
+    path: 'ver-projetos/mario-servicos',
+    component: MarioServicosComponent
+  },
+  {
+    path: 'ver-projetos/memoteca',
+    component: MemotecaComponent
+  },
+  
+
 ];
